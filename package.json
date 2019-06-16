@@ -1,0 +1,23 @@
+{
+  "name": "@hanmajid/electron_todoist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanmajid/electron_todoist.git"
+  },
+  "author": "Muhammad Farhan Majid <blsweater@gmail.com> (https://hanmajid.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanmajid/electron_todoist/issues"
+  },
+  "homepage": "https://github.com/hanmajid/electron_todoist#readme",
+  "dependencies": {
+    "electron": "^5.0.4"
+  }
+}
