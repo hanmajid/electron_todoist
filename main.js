@@ -4,14 +4,21 @@ let win;
 
 const main = () => {
   win = new BrowserWindow({
-    width: 400,
-    height: 700,
+    width: 683,
+    height: 768,
     webPreferences: {
       nodeIntegration: true,
     },
+    show: false,
   });
+  win.setMenu(null);
+  win.once("ready-to-show", () => {
+    win.show();
+  })
 
   win.loadFile("index.html");
+  
+  win.webContents.openDevTools();
 
   win.on("closed", () => {
     win = null;
