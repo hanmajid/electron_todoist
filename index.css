@@ -1,5 +1,7 @@
-.navbar {
+.my-navbar {
     background-color: #db4c3f;
+    padding: 8px 16px;
+    color: white;
 }
 
 /* .navbar-menu {
@@ -21,3 +23,7 @@
     align-items: stretch;
     display: flex;
 } */
+
+.task-item {
+    justify-content: flex-start;
+}
