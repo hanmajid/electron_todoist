@@ -8,32 +8,35 @@
   <title>Todoizt</title>
   <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
   <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
 </head>
 
 <body>
   <nav class="my-navbar level is-mobile">
-    <div class="level-left">
-      <div class="level-item">
-        <span>B</span>
+    <div class="level-left" style="flex-grow: 1">
+      <div class="level-item" style="flex-grow: 0">
+          <button class="my-button"><i class="fa fa-bars"></i></button>
       </div>
-      <div class="level-item">
-        <input class="input" placeholder="Quick Find" />
+      <div class="level-item" style="justify-content: flex-start">
+        <input class="search-bar input" placeholder="Quick Find" />
       </div>
     </div>
 
     <div class="level-right">
       <div class="level-item">
-        <span>+</span>
+        <button class="my-button"><i class="fa fa-plus"></i></button>
       </div>
       <div class="level-item">
-        <span>T</span>
-        <span>200</span>
+        <button class="my-button">
+          <i class="fa fa-level-up" style="padding: 4px;"></i>
+          <span>200</span>
+        </button>
       </div>
       <div class="level-item">
-        <span>Bell</span>
+        <button class="my-button"><i class="fa fa-bell"></i></button>
       </div>
       <div class="level-item">
-        <span>Set</span>
+        <button class="my-button"><i class="fa fa-cog"></i></button>
       </div>
     </div>
   </nav>

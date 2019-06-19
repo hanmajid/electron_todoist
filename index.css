@@ -1,7 +1,67 @@
+.input::-webkit-input-placeholder {
+    color:rgba(255, 255, 255, 0.8);
+}
+.input::-moz-placeholder {
+    color:rgba(255, 255, 255, 0.8);
+}
+.input::-ms-placeholder {
+    color:rgba(255, 255, 255, 0.8);
+}
+.input::placeholder {
+    color:rgba(255, 255, 255, 0.8);
+}
+
+.input:focus::-webkit-input-placeholder {
+    color:rgba(0, 0, 0, 0.4);
+}
+.input:focus::-moz-placeholder {
+    color:rgba(0, 0, 0, 0.4);
+}
+.input:focus::-ms-placeholder {
+    color:rgba(0, 0, 0, 0.4);
+}
+.input:focus::placeholder {
+    color:rgba(0, 0, 0, 0.4);
+}
+
 .my-navbar {
     background-color: #db4c3f;
     padding: 8px 16px;
     color: white;
+}
+
+.search-bar {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    width: 200px;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+    color: inherit;
+}
+
+.search-bar:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.search-bar:focus {
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    color: black;
+}
+
+.my-button {
+    background: transparent;
+    border: none;
+    padding: 8px 12px;
+    color: inherit;
+}
+
+.my-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
 }
 
 /* .navbar-menu {
