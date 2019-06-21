@@ -8,4 +8,6 @@ I made this for my study/exercise on Electron.js.
 
 ## Screenshots
 
-TODO
+1. Slick search bar animation
+<img src="https://github.com/hanmajid/electron_todoist/blob/master/screenshots/image1.gif" height="300" alt="Slick search bar animation"/>
+
