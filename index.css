@@ -25,6 +25,7 @@
 }
 
 .my-navbar {
+    height: 50px;
     background-color: #db4c3f;
     padding: 8px 16px;
     color: white;
