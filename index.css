@@ -30,28 +30,50 @@
     padding: 8px 16px;
     color: white;
 }
+.my-navbar:focus-within .my-level-right {
+    position: absolute;
+}
 
+/* .search-bar */
+.search-bar-container {
+    width: 200px;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+    display: flex;
+    border-radius: 5px;
+}
+.search-bar-container:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.search-bar-container:focus-within {
+    width: 100%;
+    background: white;
+}
+.search-bar-container>.search-bar-help {
+    z-index: 1;
+    display: none;
+    color: black;
+}
+.search-bar-container:focus-within>.search-bar-help {
+    display: inherit;
+}
 .search-bar {
     background-color: transparent;
     border: none;
     box-shadow: none;
-    width: 200px;
-    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
-    transition: width 1s;
+    width: 100%;
     color: inherit;
 }
-
 .search-bar:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    /* background-color: rgba(255, 255, 255, 0.2); */
 }
-
 .search-bar:focus {
-    background-color: rgba(255, 255, 255, 1);
+    /* background-color: rgba(255, 255, 255, 1); */
     border: none;
     box-shadow: none;
-    width: 100%;
     color: black;
 }
+/* EOF .search-bar */
 
 .my-button {
     background: transparent;
