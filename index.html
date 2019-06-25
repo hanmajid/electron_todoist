@@ -7,6 +7,7 @@
 
   <title>Todoizt</title>
   <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+  <link rel="stylesheet" href="node_modules/bulma-extensions/bulma-tooltip/dist/css/bulma-tooltip.min.css"/>
   <link rel="stylesheet" href="./index.css">
   <link rel="stylesheet" href="./css/font-awesome.min.css">
 </head>
@@ -24,7 +25,13 @@
         </div>
       </div>
       <div class="level-item my-level-right" style="right: 0;justify-content: flex-end">
-        <button class="my-button"><i class="fa fa-plus"></i></button>
+        <button class="my-button my-tooltip">
+          <i class="fa fa-plus"></i>
+          <span class="my-tooltip-container">
+            <div style="font-weight: bold">Quick Add Task</div> 
+            <div>Open by typing q</div>
+          </span>
+        </button>
         <button class="my-button">
           <i class="fa fa-level-up" style="padding: 4px;"></i>
           <span>200</span>

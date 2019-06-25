@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/hanmajid/electron_todoist#readme",
   "dependencies": {
-    "bulma": "^0.7.5"
+    "bulma": "^0.7.5",
+    "bulma-extensions": "^6.2.7"
   },
   "devDependencies": {
     "electron": "^5.0.4",

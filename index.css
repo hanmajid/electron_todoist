@@ -87,6 +87,44 @@
     cursor: pointer;
 }
 
+/* .my-button.tooltip.is-tooltip-multiline::before {
+    min-width: 8rem;
+} */
+
+.my-tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.my-tooltip .my-tooltip-container {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 170%;
+    margin-left: -60px;
+}
+
+.my-tooltip .my-tooltip-container::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 15%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+.my-tooltip:hover .my-tooltip-container {
+    visibility: visible;
+}
+
 /* .navbar-menu {
     flex-grow: 1;
     flex-shrink: 0;
